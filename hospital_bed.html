@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+</head>
+<script src="hospital_beds.js"></script>
+</head>
+
+<body onLoad="init()">
+
+    <div>
+        <table width="800">
+            <tr>
+                <th>Stue 1</th>
+                <th>Stue 2</th>
+                <th>Stue 3</th>
+                <th>Stue 4</th>
+                <th>Stue 5</th>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <canvas id="myCanvas" width="1000" height="270">
+        </canvas>
+    </div>
+
+    <div>
+        <table width="1000">
+            <tr>
+                <th>Stue 6</th>
+                <th>Stue 7</th>
+                <th>Stue 8</th>
+                <th>Stue 9</th>
+                <th>Afhentet</th>
+                <th>Til vask</th>
+            </tr>
+        </table><br>
+        <progress id="proBar" value="0" max="100" style="width:300px;"></progress>
+        <span id="proCent"></span>
+        <br>Remaining time: <span id="timeRemain"></span>
+    </div>
+</body>
+
+</html>
